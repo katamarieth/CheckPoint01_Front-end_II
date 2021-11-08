@@ -18,3 +18,6 @@ ENTREGA:
 
 Devem ser entregues os arquivos HTML5, CSS3 e Javascript do projeto via Git/Github. Você deverá enviar o link do repositório.
 Até o dia 11/11/2021 às 23:59. 
+
+
+Link gitpages: https://katamarieth.github.io/CheckPoint01_Front-end_II/
