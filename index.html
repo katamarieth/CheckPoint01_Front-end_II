@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Qual é o tipo de casa que procura?</h1>
+    <main class="container">
+        <section>
+            <form>
+                <fieldset>
+                    <div class="dados">
+
+                        <label for="nome" class="labelInput">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"><br>
+                        <label for="sobrenome" class="labelInput">Sobrenome:</label>
+                        <input type="text" name="nome" id="sobrenome" placeholder="Digite o seu sobrenome"><br>
+                        <label for="image" class="labelInput">Imagem:</label>
+                        <input type="url" name="image" id="image" class="inputUser"
+                            placeholder="Coloquei aqui a URL"><br>
+                        <p>exemplo: https://www.quintoandar.com.br/img/med/893371539-419.01802143600696IMG8299.jpg<br>
+                        </p>    
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Tipo de casa</legend>
+                    <div>
+                        
+                        <input type="radio" name="tamanho" value="pequena" >pequena</input>
+                        <input type="radio" name="tamanho" value="media" >media</input>
+                        <input type="radio" name="tamanho" value="grande" >grande</input>
+                      </div>
+                </fieldset>
+                <button type="submit" name="submit" id="btn">Selecionar</button>
+                <button type="reset" name="reset" id="res">Cancelar</button>
+
+            </form>
+            <div id="card">
+                <p id="nome1"></p>
+                <br>
+                <p id="sobrenome1"></p>
+                <br>
+                <p id="tam1"></p>
+                <br>
+                <img id="imgTag" src="" alt="">
+                <p id="desc"></p>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
