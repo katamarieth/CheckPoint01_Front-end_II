@@ -127,7 +127,16 @@ button {
     height: 200px;
 }
 
-@media (max-width: 500px){
+@media(max-width:1510px){
+    form, input {
+        width: 100%;
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 770px){
     body {
         background: #165588;
     }
